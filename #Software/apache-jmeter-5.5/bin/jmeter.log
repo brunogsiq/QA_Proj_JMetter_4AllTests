@@ -1,0 +1,578 @@
+2023-05-22 20:49:44,816 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-05-22 20:49:44,955 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-05-22 20:49:44,955 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: Version 5.5
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: java.version=1.8.0_371
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: os.name=Windows 10
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: os.arch=x86
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: os.version=10.0
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: java.awt.headless=null
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-05-22 20:49:44,971 INFO o.a.j.JMeter: Available Processors =4
+2023-05-22 20:49:45,009 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-05-22 20:49:45,010 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-05-22 20:49:45,010 INFO o.a.j.JMeter: JMeterHome=D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5
+2023-05-22 20:49:45,010 INFO o.a.j.JMeter: user.dir  =D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin
+2023-05-22 20:49:45,010 INFO o.a.j.JMeter: PWD       =D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin
+2023-05-22 20:49:45,011 INFO o.a.j.JMeter: IP: 192.168.0.4 Name: DESKTOP-DACMP2S FullName: DESKTOP-DACMP2S
+2023-05-22 20:49:45,034 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-05-22 20:49:46,378 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-05-22 20:52:48,403 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\templates\templates.xml
+2023-05-22 20:53:31,081 INFO o.a.j.g.a.Load: Loading file: C:\Users\bruno\AppData\Local\Temp\Recording5612641055088052562.output
+2023-05-22 20:53:31,472 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-05-22 20:53:31,535 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-05-22 20:53:31,535 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-05-22 20:53:31,535 INFO o.a.j.s.SaveService: Loading file: C:\Users\bruno\AppData\Local\Temp\Recording5612641055088052562.output
+2023-05-22 20:53:31,600 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-05-22 20:53:31,659 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2023-05-22 20:53:34,394 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files (x86)\Java\jre-1.8\bin\keytool'
+2023-05-22 20:53:34,394 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-05-22 20:53:34,426 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-22 20:53:35,191 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-05-22 20:53:35,191 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-05-22 20:53:35,191 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-05-22 20:53:35,191 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-05-22 21:16:16,550 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-05-22 21:16:16,550 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-05-22 21:16:17,277 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2023-05-22 21:16:26,960 INFO o.a.j.p.h.p.ProxyControl: Created keystore in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 21:16:26,972 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-22 21:16:27,186 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-22 21:18:30,113 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-22 21:18:56,668 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-22 21:18:56,668 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-22 21:18:56,668 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-22 21:18:56,668 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-22 21:19:14,784 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-22 21:19:45,542 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-22 21:19:45,542 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-22 21:19:45,542 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-22 21:19:45,542 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-22 21:19:57,503 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_371]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_371]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_371]
+	at org.apache.jmeter.protocol.http.proxy.gui.RecorderDialog.lambda$init$0(RecorderDialog.java:167) ~[ApacheJMeter_http.jar:5.5]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) ~[?:1.8.0_371]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) ~[?:1.8.0_371]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) ~[?:1.8.0_371]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) ~[?:1.8.0_371]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) ~[?:1.8.0_371]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) ~[?:1.8.0_371]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Component.processEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Container.processEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Component.dispatchEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.Component.dispatchEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.access$500(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$3.run(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$3.run(Unknown Source) ~[?:1.8.0_371]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_371]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:1.8.0_371]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$4.run(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$4.run(Unknown Source) ~[?:1.8.0_371]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_371]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-22 21:19:59,690 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-22 21:20:02,487 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-22 21:20:02,487 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-22 21:20:02,487 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-22 21:20:02,487 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-22 21:20:40,827 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-22 21:22:34,565 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-22 21:22:34,565 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-22 21:22:34,565 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-22 21:22:34,565 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-22 21:31:29,217 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2023-05-22 21:31:29,282 INFO o.a.j.p.h.p.ProxyControl: [53619]  Creating entry incoming.telemetry.mozilla.org in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 21:31:35,176 INFO o.a.j.p.h.p.ProxyControl: [53620]  Creating entry safebrowsing.googleapis.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 21:31:36,249 INFO o.a.j.p.h.p.Proxy: [53619]  KeyStore for SSL loaded OK and put host 'incoming.telemetry.mozilla.org' in map with key (incoming.telemetry.mozilla.org)
+2023-05-22 21:31:37,410 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-DACMP2S
+2023-05-22 21:31:37,466 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-05-22 21:31:37,916 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-05-22 21:31:37,984 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-05-22 21:31:37,984 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-05-22 21:31:38,237 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-05-22 21:31:38,237 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-05-22 21:31:38,237 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-05-22 21:31:39,030 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-22 21:31:39,079 INFO o.a.j.p.h.p.ProxyControl: Add sample -1 into controller 
+2023-05-22 21:31:39,411 INFO o.a.j.p.h.p.Proxy: [53620]  KeyStore for SSL loaded OK and put host 'safebrowsing.googleapis.com' in map with key (safebrowsing.googleapis.com)
+2023-05-22 21:31:39,927 INFO o.a.j.p.h.p.ProxyControl: Add sample -2 into controller 
+2023-05-22 22:00:24,752 INFO o.a.j.p.h.p.ProxyControl: [53681]  Creating entry location.services.mozilla.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 22:00:29,130 INFO o.a.j.p.h.p.ProxyControl: Add sample -3 into controller 
+2023-05-22 22:00:31,456 INFO o.a.j.p.h.p.ProxyControl: [53684]  Creating entry classify-client.services.mozilla.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 22:00:31,456 INFO o.a.j.p.h.p.Proxy: [53681]  KeyStore for SSL loaded OK and put host 'location.services.mozilla.com' in map with key (location.services.mozilla.com)
+2023-05-22 22:00:31,555 WARN o.a.j.p.h.p.Proxy: [53681]  Problem with SSL certificate for url  for 'location.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-22 22:00:35,095 INFO o.a.j.p.h.p.Proxy: [53684]  KeyStore for SSL loaded OK and put host 'classify-client.services.mozilla.com' in map with key (classify-client.services.mozilla.com)
+2023-05-22 22:00:35,095 WARN o.a.j.p.h.p.Proxy: [53683]  Problem with SSL certificate for url  for 'location.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-22 22:00:35,478 INFO o.a.j.p.h.p.ProxyControl: [53688]  Creating entry content-signature-2.cdn.mozilla.net in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-22 22:00:35,563 INFO o.a.j.p.h.p.ProxyControl: Add sample -4 into controller 
+2023-05-22 22:00:40,379 INFO o.a.j.p.h.p.Proxy: [53688]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2023-05-22 22:00:40,753 INFO o.a.j.p.h.p.ProxyControl: Add sample -5 into controller 
+2023-05-22 22:01:30,087 INFO o.a.j.p.h.p.ProxyControl: Add sample -6 into controller 
+2023-05-22 22:02:08,816 INFO o.a.j.p.h.p.ProxyControl: Add sample -7 into controller 
+2023-05-22 22:32:03,362 INFO o.a.j.p.h.p.ProxyControl: Add sample -8 into controller 
+2023-05-22 23:02:20,313 INFO o.a.j.p.h.p.ProxyControl: Add sample -9 into controller 
+2023-05-22 23:21:00,299 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-23 00:22:33,889 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-23 00:22:33,889 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-23 00:22:33,889 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-23 00:22:33,920 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-23 00:22:58,097 INFO o.a.j.p.h.p.ProxyControl: [54348]  Creating entry www.google.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-23 00:23:02,378 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-10 into controller Home
+2023-05-23 00:23:05,173 INFO o.a.j.p.h.p.ProxyControl: [54358]  Creating entry blazedemo.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-23 00:23:05,175 INFO o.a.j.p.h.p.Proxy: [54348]  KeyStore for SSL loaded OK and put host 'www.google.com' in map with key (www.google.com)
+2023-05-23 00:23:05,183 WARN o.a.j.p.h.p.Proxy: [54348]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:09,964 INFO o.a.j.p.h.p.Proxy: [54358]  KeyStore for SSL loaded OK and put host 'blazedemo.com' in map with key (blazedemo.com)
+2023-05-23 00:23:09,978 WARN o.a.j.p.h.p.Proxy: [54353]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:09,979 WARN o.a.j.p.h.p.Proxy: [54355]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:09,980 WARN o.a.j.p.h.p.Proxy: [54352]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:09,996 WARN o.a.j.p.h.p.Proxy: [54351]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:10,000 WARN o.a.j.p.h.p.Proxy: [54350]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:10,006 WARN o.a.j.p.h.p.Proxy: [54354]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:10,013 WARN o.a.j.p.h.p.Proxy: [54349]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2023-05-23 00:23:13,876 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-11 into controller Home
+2023-05-23 00:23:14,700 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-13 into controller Home
+2023-05-23 00:23:14,722 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-12 into controller Home
+2023-05-23 00:23:15,312 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-14 into controller Home
+2023-05-23 00:23:16,155 INFO o.a.j.p.h.p.ProxyControl: [54374]  Creating entry blazemeter.trackinglibrary.prodperfect.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-23 00:23:20,678 INFO o.a.j.p.h.p.ProxyControl: [54377]  Creating entry firefox.settings.services.mozilla.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-23 00:23:20,680 INFO o.a.j.p.h.p.Proxy: [54374]  KeyStore for SSL loaded OK and put host 'blazemeter.trackinglibrary.prodperfect.com' in map with key (blazemeter.trackinglibrary.prodperfect.com)
+2023-05-23 00:23:22,946 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-21 into controller Home
+2023-05-23 00:23:26,384 INFO o.a.j.p.h.p.ProxyControl: [54390]  Creating entry blazemeter.datapipe.prodperfect.com in D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin\proxyserver.jks
+2023-05-23 00:23:26,388 INFO o.a.j.p.h.p.Proxy: [54377]  KeyStore for SSL loaded OK and put host 'firefox.settings.services.mozilla.com' in map with key (firefox.settings.services.mozilla.com)
+2023-05-23 00:23:26,624 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-22 into controller Home
+2023-05-23 00:23:27,032 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-23 into controller Home
+2023-05-23 00:23:27,236 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-24 into controller Home
+2023-05-23 00:23:29,946 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-23 00:23:31,046 INFO o.a.j.p.h.p.Proxy: [54390]  KeyStore for SSL loaded OK and put host 'blazemeter.datapipe.prodperfect.com' in map with key (blazemeter.datapipe.prodperfect.com)
+2023-05-23 00:33:07,305 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2023-05-23 00:33:07,305 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2023-05-23 00:33:07,305 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-05-23 00:33:07,305 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-05-23 00:33:07,521 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-29 into controller Home
+2023-05-23 00:33:07,605 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-26 into controller Home
+2023-05-23 00:33:07,621 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-27 into controller Home
+2023-05-23 00:33:07,636 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-28 into controller Home
+2023-05-23 00:33:07,652 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-25 into controller Home
+2023-05-23 00:33:14,816 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-30 into controller Home
+2023-05-23 00:33:15,439 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-32 into controller Home
+2023-05-23 00:33:15,702 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-31 into controller Home
+2023-05-23 00:33:15,702 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-34 into controller Home
+2023-05-23 00:33:16,041 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-36 into controller Home
+2023-05-23 00:33:16,689 INFO o.a.j.p.h.p.ProxyControl: Add sample Home-35 into controller Home
+2023-05-23 00:33:56,463 INFO o.a.j.p.h.p.ProxyControl: Add sample Reserva-40 into controller Reserva
+2023-05-23 00:33:56,663 INFO o.a.j.p.h.p.ProxyControl: Add sample Reserva-37 into controller Reserva
+2023-05-23 00:33:56,685 INFO o.a.j.p.h.p.ProxyControl: Add sample Reserva-38 into controller Reserva
+2023-05-23 00:33:56,864 INFO o.a.j.p.h.p.ProxyControl: Add sample Reserva-39 into controller Reserva
+2023-05-23 00:33:57,482 INFO o.a.j.p.h.p.ProxyControl: Add sample Reserva-41 into controller Reserva
+2023-05-23 00:34:07,297 INFO o.a.j.p.h.p.ProxyControl: Add sample Compra-42 into controller Compra
+2023-05-23 00:34:07,303 INFO o.a.j.p.h.p.ProxyControl: Add sample Compra-43 into controller Compra
+2023-05-23 00:34:07,319 INFO o.a.j.p.h.p.ProxyControl: Add sample Compra-44 into controller Compra
+2023-05-23 00:34:07,497 INFO o.a.j.p.h.p.ProxyControl: Add sample Compra-45 into controller Compra
+2023-05-23 00:34:08,098 INFO o.a.j.p.h.p.ProxyControl: Add sample Compra-46 into controller Compra
+2023-05-23 00:34:27,296 INFO o.a.j.p.h.p.ProxyControl: Add sample Confirma-49 into controller Confirma
+2023-05-23 00:34:27,312 INFO o.a.j.p.h.p.ProxyControl: Add sample Confirma-48 into controller Confirma
+2023-05-23 00:34:27,312 INFO o.a.j.p.h.p.ProxyControl: Add sample Confirma-47 into controller Confirma
+2023-05-23 00:34:27,497 INFO o.a.j.p.h.p.ProxyControl: Add sample Confirma-50 into controller Confirma
+2023-05-23 00:34:28,129 INFO o.a.j.p.h.p.ProxyControl: Add sample Confirma-51 into controller Confirma
+2023-05-23 00:34:31,467 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2023-05-23 00:45:36,603 INFO o.a.j.s.FileServer: Default base='D:\GitHub\QA_Learn\JMeter\apache-jmeter-5.5\bin'
+2023-05-23 00:45:36,666 INFO o.a.j.s.FileServer: Set new base='D:\GitHub\QA_Learn\JMeter\01_4AllTests'
+2023-05-23 01:33:05,610 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2023-05-23 01:34:56,242 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:34:56,242 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:34:56,258 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:34:56,648 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:34:56,648 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2023-05-23 01:34:56,648 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:34:56,648 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2023-05-23 01:34:56,695 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-23 01:34:56,695 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:34:56,711 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-23 01:34:56,714 INFO o.a.j.s.FileServer: Stored: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:34:57,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-23 01:34:58,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-23 01:34:58,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-23 01:34:58,836 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-23 01:34:58,836 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-23 01:34:58,836 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:34:58,836 INFO o.a.j.s.FileServer: Close: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:34:58,851 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:35:51,006 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:35:51,006 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:35:51,006 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:35:51,006 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:35:51,006 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2023-05-23 01:35:51,006 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:35:51,006 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2023-05-23 01:35:51,022 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-23 01:35:51,022 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:35:51,022 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-23 01:35:51,024 INFO o.a.j.s.FileServer: Stored: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:35:51,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-23 01:35:52,383 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-23 01:35:52,383 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-23 01:35:53,523 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-23 01:35:53,523 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-23 01:35:53,523 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:35:53,523 INFO o.a.j.s.FileServer: Close: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:35:53,523 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:36:23,627 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:36:23,627 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:36:23,627 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:36:23,705 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:36:23,705 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 01:36:23,705 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:36:23,705 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-05-23 01:36:23,705 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-23 01:36:23,705 INFO o.a.j.s.FileServer: Stored: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:36:23,729 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-23 01:36:23,729 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:36:23,814 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-23 01:36:23,923 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-05-23 01:36:24,032 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-05-23 01:36:24,111 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-05-23 01:36:24,211 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-05-23 01:36:24,307 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-05-23 01:36:24,407 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-05-23 01:36:24,507 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-05-23 01:36:24,607 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-05-23 01:36:25,170 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-23 01:36:25,170 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-23 01:36:25,448 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-05-23 01:36:25,448 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-05-23 01:36:25,542 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-05-23 01:36:25,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-05-23 01:36:25,636 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-05-23 01:36:25,636 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-05-23 01:36:25,651 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2023-05-23 01:36:25,651 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2023-05-23 01:36:25,729 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-23 01:36:25,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-23 01:36:25,854 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2023-05-23 01:36:25,854 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2023-05-23 01:36:25,885 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2023-05-23 01:36:25,885 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2023-05-23 01:36:26,120 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2023-05-23 01:36:26,120 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2023-05-23 01:36:26,151 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2023-05-23 01:36:26,151 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2023-05-23 01:36:26,151 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:36:26,151 INFO o.a.j.s.FileServer: Close: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:36:26,151 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:36:34,774 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:36:34,774 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:36:34,774 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:36:34,774 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:36:34,774 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 01:36:34,774 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:36:34,774 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2023-05-23 01:36:34,790 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-23 01:36:34,790 INFO o.a.j.s.FileServer: Stored: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:36:34,790 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-23 01:36:34,790 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:36:34,884 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-23 01:36:34,985 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-05-23 01:36:35,083 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-05-23 01:36:35,183 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-05-23 01:36:35,284 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-05-23 01:36:35,383 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-05-23 01:36:35,483 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-05-23 01:36:35,583 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-05-23 01:36:35,683 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-05-23 01:36:36,168 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-23 01:36:36,168 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-23 01:36:36,387 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-23 01:36:36,387 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-23 01:36:36,418 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-05-23 01:36:36,418 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-05-23 01:36:36,636 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-05-23 01:36:36,636 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-05-23 01:36:36,714 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-05-23 01:36:36,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-05-23 01:36:36,746 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2023-05-23 01:36:36,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2023-05-23 01:36:36,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2023-05-23 01:36:36,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2023-05-23 01:36:36,902 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2023-05-23 01:36:36,902 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2023-05-23 01:36:36,918 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2023-05-23 01:36:36,918 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2023-05-23 01:36:37,121 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2023-05-23 01:36:37,121 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2023-05-23 01:36:37,121 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:36:37,121 INFO o.a.j.s.FileServer: Close: D:/GitHub/QA_Learn/JMeter/01_4AllTests/Data/cidades.csv
+2023-05-23 01:36:37,121 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:39:59,528 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.NullPointerException: null
+	at com.github.weisj.darklaf.ui.tree.DarkTreeExpansionAnimationListener$TreeStateAnimator.repaint(DarkTreeExpansionAnimationListener.java:102) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at com.github.weisj.darklaf.ui.tree.DarkTreeExpansionAnimationListener$TreeStateAnimator.paintNow(DarkTreeExpansionAnimationListener.java:111) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at com.github.weisj.darklaf.graphics.Animator.paint(Animator.java:183) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at com.github.weisj.darklaf.graphics.Animator.onTick(Animator.java:219) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at com.github.weisj.darklaf.graphics.Animator.access$000(Animator.java:36) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at com.github.weisj.darklaf.graphics.Animator$1.lambda$run$0(Animator.java:172) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.access$500(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$3.run(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue$3.run(Unknown Source) ~[?:1.8.0_371]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_371]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) ~[?:1.8.0_371]
+	at java.awt.EventDispatchThread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 01:54:24,278 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:54:24,278 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:54:24,278 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:54:24,450 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:54:24,450 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 01:54:24,450 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:54:24,450 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 01:54:24,450 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 01:54:24,450 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:54:24,450 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:54:24,450 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:56:47,189 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:56:47,189 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:56:47,189 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:56:47,205 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:56:47,205 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 01:56:47,205 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:56:47,205 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 01:56:47,205 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 01:56:47,205 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:56:47,205 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:56:47,205 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 01:58:41,993 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 01:58:41,993 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 01:58:41,993 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 01:58:42,086 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 01:58:42,086 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 01:58:42,086 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 01:58:42,086 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 01:58:42,086 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 01:58:42,086 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 01:58:42,086 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 01:58:42,086 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 02:35:32,853 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 02:35:32,853 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 02:35:32,853 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 02:35:32,869 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 02:35:32,884 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 02:35:32,884 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 02:35:32,884 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 02:35:32,884 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 02:35:32,884 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 02:35:32,884 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 02:35:32,884 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 02:39:12,427 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 02:39:12,427 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 02:39:12,427 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 02:39:12,442 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 02:39:12,442 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 02:39:12,442 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 02:39:12,442 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 02:39:12,442 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Home has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 02:39:12,442 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 02:39:12,442 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 02:39:12,442 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 02:40:07,299 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 02:40:07,299 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 02:40:07,299 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 02:40:07,314 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 02:40:07,314 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 02:40:07,314 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 02:40:07,314 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2023-05-23 02:40:07,314 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 02:40:07,314 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 02:40:07,314 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 02:40:07,314 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 02:46:03,073 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 02:46:03,073 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 02:46:03,089 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 02:46:03,229 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 02:46:03,229 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 02:46:03,229 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 02:46:03,229 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-05-23 02:46:03,229 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 02:46:03,229 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 02:46:03,229 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 02:46:03,229 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-23 02:54:38,983 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-23 02:54:38,983 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-23 02:54:38,998 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-23 02:54:39,029 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-23 02:54:39,029 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2023-05-23 02:54:39,029 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-23 02:54:39,029 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-05-23 02:54:39,029 ERROR o.a.j.u.JMeterUtils: Error occurred starting thread group :Thread Group, error message:ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence, 
+see log file for more details
+org.apache.jorphan.util.JMeterStopTestException: ModuleController:Reserva has no selected Controller (did you rename some element in the path to target controller?), test was shutdown as a consequence
+	at org.apache.jmeter.control.ModuleController.resolveReplacementSubTree(ModuleController.java:143) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.restoreSelected(ModuleController.java:126) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.ModuleController.clone(ModuleController.java:70) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNodeToTree(TreeCloner.java:76) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.TreeCloner.addNode(TreeCloner.java:63) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:993) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverseInto(HashTree.java:994) ~[jorphan.jar:5.5]
+	at org.apache.jorphan.collections.HashTree.traverse(HashTree.java:976) ~[jorphan.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.cloneTree(AbstractThreadGroup.java:384) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.startNewThread(ThreadGroup.java:261) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.ThreadGroup.start(ThreadGroup.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.startThreadGroup(StandardJMeterEngine.java:541) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:466) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_371]
+2023-05-23 02:54:39,029 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-23 02:54:39,029 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-23 02:54:39,029 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
